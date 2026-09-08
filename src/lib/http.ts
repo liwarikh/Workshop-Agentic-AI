@@ -1,0 +1,2 @@
+export const json = (data: unknown, status = 200) => new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
+export const errorJson = (message: string, status = 400) => json({ error: message }, status);

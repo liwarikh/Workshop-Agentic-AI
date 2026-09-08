@@ -30,3 +30,4 @@ DEFAULT_CHAT_PROVIDER = "gemini"
 # "Replace base url" — ไม่บังคับ ใช้เฉพาะตอนเลือก provider นี้เท่านั้น
 OPENAI_COMPAT_BASE_URL = "Replace base url"
 OPENAI_COMPAT_MODEL = "gpt-4o-mini"
+ 
